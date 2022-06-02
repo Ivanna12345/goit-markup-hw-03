@@ -74,7 +74,10 @@ body {
 .logo-black {
   color: var(--black-logo-color);
 }
-
+.header{
+  background-color: var(--white-text-color);
+  border-bottom: 1px solid #ececec;
+}
 .header-nav-link {
   font-weight: 500;
   font-size: 14px;
