@@ -106,6 +106,8 @@ body {
 
 .hero {
   background-color: var(--hero-background-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .hero-title {
