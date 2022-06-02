@@ -49,7 +49,7 @@ body {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
@@ -76,7 +76,9 @@ body {
 }
 
 /* ------------ШАПКА-------------- */
-
+.header-logo {
+  margin-right: 93px;
+}
 .logo-black {
   color: var(--black-logo-color);
 }
