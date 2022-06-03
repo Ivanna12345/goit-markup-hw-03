@@ -102,9 +102,10 @@
       </section>
       <!-- Список занятий -->
       <section class="work-section">
-        <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="work-list list">
-          <li class="work-item">
+        <div class="container"> 
+        <h2 class="work-title">Чем мы занимаемся</h2>
+        <ul class="work-image">
+          <li class="work-image-item">
             <img
               src="./images/img1.jpg"
               alt="сотрудник создает программу"
@@ -112,7 +113,7 @@
               height="294"
             />
           </li>
-          <li class="work-item">
+          <li class="work-image-item">
             <img
               src="./images/img2.jpg"
               alt="сотрудник создает мобильное приложение"
@@ -120,7 +121,7 @@
               height="294"
             />
           </li>
-          <li class="work-item">
+          <li class="work-image-item">
             <img
               src="./images/img3.jpg"
               alt="веб-дизайнер выбирает палитру"
@@ -129,56 +130,59 @@
             />
           </li>
         </ul>
+      </div>
       </section>
       <!-- Команда -->
-      <section class="team-section">
+      <section class="our-team-section">
         <div class="container">
-        <h2 class="section-title">Наша команда</h2>
-        <ul class="team-list list">
-          <li class="team-item">
+        <h2 class="team-title">Наша команда</h2>
+        <ul class="team">
+          <li class="team-member">
             <img
               src="./images/demnenko.jpg"
               alt="фото Игоря Демьяненко"
               width="270"
               height="260"
             />
-            <h3 class="team-worker">Игорь Демьяненко</h3>
-            <p class="team-profession" lang="en">Product Designer</p>
+            <div class="team-card">
+            <h3 class="personal-title">Игорь Демьяненко</h3>
+            <p class="personal-position" lang="en">Product Designer</p>
+          </div>
           </li>
-          <li class="team-item">
+          <li class="team-member">
             <img
               src="./images/repina.jpg"
               alt="фото Ольги Репиной"
               width="270"
               height="260"
             />
-            <div class="team-workers">
-            <h3 class="team-worker">Ольга Репина</h3>
-            <p class="team-profession" lang="en">Frontend Developer</p>
+            <div class="team-card">
+            <h3 class="personal-title">Ольга Репина</h3>
+            <p class="personal-position" lang="en">Frontend Developer</p>
           </div>
         </li>
-          <li class="team-item">
+          <li class="team-member">
             <img
               src="./images/tarasov.jpg"
               alt="фото Николая Тарасова"
               width="270"
               height="260"
             />
-            <div class="team-workers">
-            <h3 class="team-worker">Николай Тарасов</h3>
-            <p class="team-profession" lang="en">Marketing</p>
+            <div class="team-card">
+            <h3 class="personal-title">Николай Тарасов</h3>
+            <p class="personal-position" lang="en">Marketing</p>
             </div>
           </li>
-          <li class="team-item">
+          <li class="team-member">
             <img
               src="./images/ermakov.jpg"
               alt="фото Михаила Ермакова"
               width="270"
               height="260"
             />
-            <div class="team-workers">
-            <h3 class="team-worker">Михаил Ермаков</h3>
-            <p class="team-profession" lang="en">UI Designer</p>
+            <div class="team-card">
+            <h3 class="personal-title">Михаил Ермаков</h3>
+            <p class="personal-position" lang="en">UI Designer</p>
           </div>
         </li>
         </ul>
@@ -188,13 +192,13 @@
     <!-- Подвал -->
     <footer class="footer">
       <div class="container">
-      <a class="logo link" href="./index.html"
-        >Web<span class="logo-white">Studio</span></a
+      <a class="logo footer-logo" href="./index.html"
+        >Web<span class="accentwhite">Studio</span></a
       >
       <!-- Список контактов -->
-      <address class="footer-contact">
-        <ul class="footer-contact-list list">
-          <li class="footer-contact-item">
+      <address>
+        <ul class="address-list">
+          <li class="adress-item">
             <a
               class="footer-contact-link address link"
               href="https://goo.gl/maps/CdvJLRiEL6Q8Smko8"
