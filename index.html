@@ -18,19 +18,19 @@
 
   <body>
     <!-- Шапка -->
-    <header class="header">
-      <div class="container nav-flex">
+    <header class="header-container">
+      <div class="container header-item">
         <nav class="header-nav">
           <a class="logo link" href="./index.html"
-            >Web<span class="logo-black">Studio</span></a
+            >Web<span class="logo header-logo">Studio</span></a
           >
-          <ul class="header-nav-list list">
-            <li class="header-nav-item">
-              <a class="header-nav-link link current" href="./index.html"
+          <ul class="site-nav nav-list">
+            <li class="nav-item">
+              <a class="nav-link current" href="./index.html"
                 >Студия</a
               >
             </li>
-            <li class="header-nav-item">
+            <li class="nav-item">
               <a class="header-nav-link link" href="./portfolio.html"
                 >Портфолио</a
               >
@@ -40,14 +40,14 @@
             </li>
           </ul>
         </nav>
-        <ul class="header-contact-list list">
-          <li class="header-contact-item">
-            <a class="header-contact-link link" href="mailto:info@devstudio.com"
+        <ul class="contact-header">
+          <li class="contact-item">
+            <a class="contact-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li class="header-contact-item">
-            <a class="header-contact-link link" href="tel:+380961111111"
+          <li class="contact-item">
+            <a class="contact-link" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
           </li>
@@ -58,39 +58,41 @@
     <main>
       <!-- Герой -->
       <section class="hero">
+        <div class="container">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="hero-btn" type="button">Заказать услугу</button>
+        <button class="button primary hero-button" type="button">Заказать услугу</button>
+      </div>
       </section>
       <!-- Список преимуществ -->
-      <section class="features-section">
+      <section class="special section">
         <div class="container">
         <!-- h2 Преимущества спрятать в css правильно -->
         <h2 hidden>Преимущества</h2>
-        <ul class="features-list list">
-          <li class="features-item">
-            <h3 class="features-title">Внимание к деталям</h3>
-            <p class="features-text">
+        <ul class="special-list">
+          <li class="special-type">
+            <h3 class="special-title">Внимание к деталям</h3>
+            <p class="special-item">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li class="features-item">
-            <h3 class="features-title">Пунктуальность</h3>
-            <p class="features-text">
+          <li class="special-type">
+            <h3 class="special-title">Пунктуальность</h3>
+            <p class="special-item">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li class="features-item">
-            <h3 class="features-title">Планирование</h3>
-            <p class="features-text">
+          <li class="special-type">
+            <h3 class="special-title">Планирование</h3>
+            <p class="special-item">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li class="features-item">
-            <h3 class="features-title">Современные технологии</h3>
-            <p class="features-text">
+          <li class="special-type">
+            <h3 class="special-title">Современные технологии</h3>
+            <p class="special-item">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
