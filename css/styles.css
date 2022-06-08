@@ -105,6 +105,8 @@ body {
 .header-container {
   background-color: var(--whitetextcolor);
   border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-item {
@@ -293,13 +295,16 @@ body {
   margin: 0px;
 }
 .special-type:not(:last-child) {
-  display: block;
   margin-right: 30px;
+  
+}
+.special-type {
+  width: 270px;
 }
 .special-item {
-  width: 270px;
+  
   color: var(--maintextcolor);
-
+  
   font-size: 14px;
   line-height: 1.7;
   margin: 0px;
@@ -333,6 +338,11 @@ body {
 /* our team */
 .our-team {
   background-color: rgba(245, 244, 250, 1);
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.our-team-section {
+  background-color: var(--third-background)
 }
 .team {
   display: flex;
