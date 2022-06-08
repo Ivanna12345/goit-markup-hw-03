@@ -110,7 +110,6 @@ body {
 .header-item {
   display: flex;
   align-items: center;
-  min-height: 80px;
 }
 
 .header-logo {
